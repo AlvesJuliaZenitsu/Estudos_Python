@@ -1,0 +1,13 @@
+import pygame
+import time
+
+pygame.init()
+pygame.mixer.music.set_volume(1.0)
+
+pygame.mixer.music.load('Tste.mp3')
+pygame.mixer.music.play()
+time.sleep(10)
+pygame.event.wait()
+
+#FUNCIONOOOOOOOOOOOOOOU AAAAAAAAAAAAAAAEEEEEEEEEEEEEEEEEEEEEEE
+#Graças ao time
