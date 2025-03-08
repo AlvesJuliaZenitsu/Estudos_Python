@@ -2,15 +2,15 @@
 #"SILVA" no nome.
 
 
-nome = input("Digite seu nome completo: ")
+nome = input("Digite seu nome completo: ").strip()
 
 posicao = nome.upper().find("SILVA")
 print(posicao)
 if posicao > 0:
-    print("Credo, tu tem Silva no nome!! KKKK")
+    print("O seu nome tem 'Silva', igual o meu.")
 
 elif posicao == -1:
    print("Boa! Não tem Silva no nome! KKKK")
 
 
-# A ideia é fazer o find não encontrar que resulta em -1
+# A ideia é fazer o find não encontrar, que ocasionará em -1
